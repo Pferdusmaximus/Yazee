@@ -1,4 +1,5 @@
 import player
+import pygame
 
 class Game:
     def __init__(self,players, count_turns, window):
@@ -12,6 +13,8 @@ def game_won():
 def play_turn():
     pass
 
-def quit(running):
-    running = False 
-    return running
+def quit():
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            return False
+    return True
