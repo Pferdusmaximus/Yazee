@@ -2,7 +2,7 @@ import pygame
 
 class Scorecard:
     CATEGORIES = [
-      "Einser","Zweier","Dreier","Vierer","Fünfer","Sechser",
+      "Spieler","Einser","Zweier","Dreier","Vierer","Fünfer","Sechser",
       "Dreierpasch","Viererpasch","Full House",
       "Kleine Straße","Große Straße","Kniffelchen","Chance"
     ]

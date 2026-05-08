@@ -24,5 +24,3 @@ class Dice:
         for fx,fy in PIP_POS[int(self.value)]:
             pygame.draw.circle(window, (0,0,0), (int(x+fx*w), int(y+fy*h)), r)
 
-    def roll(self):
-        self.value = random.randint(1, 6)
